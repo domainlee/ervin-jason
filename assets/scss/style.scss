@@ -26,7 +26,6 @@ Version: 1.0.0
 */
 
 /* 1. Start Theme Default CSS */
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Roboto:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
 
 html {
@@ -257,18 +256,18 @@ img {
     top: 0;
     transition: all 0.5s ease;
     .head__fix & {
-        top: -70px;
+        top: -90px;
     }
     .head__show & {
         top: 0;
     }
     .header_inner {
-        height: 70px;
-        border-bottom: 1px solid #e6e6e6;
+        height: 90px;
+        border-bottom: 1px solid #f4eecf;
         .header__logo {
-            font-weight: 100;
-            font-size: 30px;
-            font-family: 'Bungee Hairline', cursive;
+            img {
+                height: 36px;
+            }
         }
         .header__nav {
             .header__navigation {
@@ -300,9 +299,10 @@ img {
     }
 }
 .header--fixed {
-    height: 70px;
+    height: 90px;
     width: 100%;
     z-index: -1;
+    background-color: #fffdf1;
 }
 /** 3. End Header **/
 
@@ -317,25 +317,131 @@ img {
         position: relative;
         .about-me__avatar {
             position: relative;
-            overflow: hidden;
             transition: all 1.2s ease;
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
-            .about-me__clients {
-                width: 100px;
-                height: 100px;
+            .about-me__awards {
+                width: 120px;
+                height: 120px;
                 border-radius: 50%;
                 background-color: #000;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                flex-direction: column;
                 color: #FFF;
                 text-align: center;
-                font-size: 12px;
+                font-size: 14px;
                 top: 20px;
                 left: 30px;
                 font-weight: 400;
+                box-shadow: 0 10px 20px 2px #0000003b;
+                i {
+                    margin: 0 0 5px;
+                    font-size: 20px;
+                }
+                &:before {
+                    content: '';
+                    width: 60px;
+                    height: 105px;
+                    display: inline-block;
+                    background-image: url('../img/arrow-2.png');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    position: absolute;
+                    background-size: contain;
+                    left: -60px;
+                    bottom: -90px;
+                }
+            }
+            .about-me__exp {
+                width: 200px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 15px 15px;
+                bottom: 50px;
+                left: 30px;
+                top: inherit;
+                background: #92b700;
+                background: -moz-linear-gradient(top, #92b700 0%, #abdc28 100%);
+                background: -webkit-linear-gradient(top, #92b700 0%, #abdc28 100%);
+                background: linear-gradient(to bottom, #92b700 0%, #abdc28 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#92b700", endColorstr="#abdc28",GradientType=0 );
+                box-shadow: 0 10px 20px 2px #0000003b;
+                strong {
+                    font-weight: 700;
+                    font-size: 46px;
+                    margin: 0 10px 0 0;
+                }
+                span {
+                    font-weight: 400;
+                }
+                &:before {
+                    content: '';
+                    width: 135px;
+                    height: 65px;
+                    display: inline-block;
+                    background-image: url('../img/arrow-1.png');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    position: absolute;
+                    background-size: contain;
+                    bottom: -75px;
+                    right: -25px;
+                }
+            }
+            .about-me__clients {
+                width: 150px;
+                height: 120px;
+                bottom: 150px;
+                top: inherit;
+                right: -70px;
+                left: inherit;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                background: rgb(255,175,75);
+                background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+                background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%);
+                background: linear-gradient(to bottom, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 );
+                color: #FFF;
+                box-shadow: 0 10px 20px 2px #0000003b;
+                .brand {
+                    margin: 0 0 5px;
+                    i {
+                        margin: 0 -30px;
+                        width: 35px;
+                        height: 35px;
+                        background-color: #ddd;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        font-size: 16px;
+                        &.icofont-brand-disney {
+                            background-color: #006e99;
+                        }
+                        &.icofont-brand-gucci {
+                            background-color: #BD9302
+                        }
+                        &.icofont-brand-adobe {
+                            background-color: #ed2224
+                        }
+                    }
+                }
             }
         }
         .about-me__intro {
