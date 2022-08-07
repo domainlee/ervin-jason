@@ -115,7 +115,12 @@
     };
 
     var owlCarousel = function() {
-        $('.my-client__js').owlCarousel({
+        var client_slider = $('.my-client__js');
+        var client_slider_thumbnail = $('.my-client__js--thumb');
+        var syncedSecondary = true;
+        var slidesPerPage = 4;
+
+        client_slider.owlCarousel({
             loop: true,
             margin: 0,
             dots: true,
@@ -133,8 +138,57 @@
                 },
                 768: {
                     nav: true,
+                    dots: false,
                 }
             }
+        }).on('changed.owl.carousel', syncPosition);
+
+        client_slider_thumbnail.on('initialized.owl.carousel', function() {
+            client_slider_thumbnail.find(".owl-item").eq(0).addClass("current");
+        }).owlCarousel({
+            items: slidesPerPage,
+            dots: true,
+            nav: true,
+            lazyLoad: true,
+            smartSpeed: 200,
+            slideSpeed: 500,
+            autoWidth: true,
+            slideBy: slidesPerPage,
+            responsiveRefreshRate: 100
+        }).on('changed.owl.carousel', syncPosition2);
+
+        function syncPosition(el) {
+            var count = el.item.count - 1;
+            var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+            if (current < 0) {
+                current = count;
+            }
+            if (current > count) {
+                current = 0;
+            }
+            client_slider_thumbnail.find(".owl-item").removeClass("current").eq(current).addClass("current");
+            var onscreen = client_slider_thumbnail.find('.owl-item.active').length - 1;
+            var start = client_slider_thumbnail.find('.owl-item.active').first().index();
+            var end = client_slider_thumbnail.find('.owl-item.active').last().index();
+            if (current > end) {
+                client_slider_thumbnail.data('owl.carousel').to(current, 100, true);
+            }
+            if (current < start) {
+                client_slider_thumbnail.data('owl.carousel').to(current - onscreen, 100, true);
+            }
+        }
+
+        function syncPosition2(el) {
+            if (syncedSecondary) {
+                var number = el.item.index;
+                client_slider.data('owl.carousel').to(number, 100, true);
+            }
+        }
+
+        client_slider_thumbnail.on("click", ".owl-item", function(e) {
+            e.preventDefault();
+            var number = $(this).index();
+            client_slider.data('owl.carousel').to(number, 300, true);
         });
 
         $('.gallery-side--js').owlCarousel({
