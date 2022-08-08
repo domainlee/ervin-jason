@@ -128,7 +128,7 @@
             lazyLoad: true,
             autoplay: true,
             items: 1,
-            navText : ["<i class='icofont-thin-left'></i>","<i class='icofont-thin-right'></i>"],
+            navText : ["<i class='arrow-left'></i>","<i class='arrow-right'></i>"],
             responsive: {
                 0: {
                     nav: false,
