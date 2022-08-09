@@ -117,7 +117,7 @@
     <!-- end about me -->
 
     <!-- start my resume -->
-    <section id="my-resume" class="my-resume px-50">
+    <section id="my-resume" class="my-resume ">
         <div class="container-xl">
             <div class="row">
                 <div class="col-12">
@@ -228,7 +228,7 @@
     <!-- end my resume -->
 
     <!-- start my service -->
-    <section id="my-service" class="my-service px-50">
+    <section id="my-service" class="my-service ">
         <div class="container-xl">
             <div class="row">
                 <div class="col-12">
@@ -318,7 +318,7 @@
     <!-- end my service -->
 
     <!-- start my project -->
-    <section id="my-project" class="my-project px-50">
+    <section id="my-project" class="my-project ">
         <div class="container-xl">
             <div class="row">
                 <div class="col-12">
@@ -586,7 +586,7 @@
     <!-- end my project -->
 
     <!-- start my client -->
-    <section id="my-client" class="my-client px-50 bg-grey">
+    <section id="my-client" class="my-client  bg-grey">
         <div class="container-xl">
             <div class="row">
                 <div class="col-12 col-md-8 offset-0 offset-md-2">
@@ -631,7 +631,7 @@
     <!-- start my client -->
 
     <!-- start my blog -->
-    <section id="my-blog" class="my-blog px-50">
+    <section id="my-blog" class="my-blog ">
         <div class="container-xl">
             <div class="row">
                 <div class="col-12">
@@ -976,59 +976,65 @@
     <!-- end my blog -->
 
     <!-- start contact -->
-    <section id="contact" class="contact px-50 bg-grey">
+    <section id="contact" class="contact  bg-grey">
         <div class="container-xl">
             <div class="row">
                 <div class="col-12">
                     <div class="contact__inner">
                         <h2 class="heading-default" data-viewport="opacity">Contact<span>What do i help</span></h2>
-                        <div class="contact__maps" data-viewport="opacity">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6194.953592006014!2d144.95353178640636!3d-37.82236861288065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEnvato%2C%20PO%20Box%2016122%2C%20Collins%20Street%20West%2C%20Victoria%208007%2C%20Australia!5e0!3m2!1svi!2s!4v1656240557551!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="row mt-4">
+                            <div class="col-3">
+                                <div class="contact__list d-flex flex-column" data-viewport="opacity">
+                                    <div class="contact__item mb-4">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <i class="icofont-phone"></i>
+                                            </div>
+                                            <span>+123 456 7890</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact__item mb-4">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <i class="icofont-email"></i>
+                                            </div>
+                                            <span>contact@gmail.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact__item mb-4">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <i class="icofont-location-pin"></i>
+                                            </div>
+                                            <span>20, Singapore</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <form id="contact__form" class="contact__form" method="post" novalidate="novalidate">
+                                    <div class="form__row">
+                                        <div class="form__item">
+                                            <input type="text" name="title" placeholder="Enter title">
+                                        </div>
+                                        <div class="form__item">
+                                            <input type="text" name="name" placeholder="Enter your full name">
+                                        </div>
+                                        <div class="form__item">
+                                            <input type="email" name="email" placeholder="Enter your email address">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <div class="form__item">
+                                            <textarea name="message" placeholder="Enter your message here"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form__row text-center">
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                        <div class="contact__list d-flex justify-content-between" data-viewport="opacity">
-                            <div class="contact__item mb-4">
-                                <div class="text-center">
-                                    <i class="icofont-phone"></i>
-                                    <span>+123 456 7890</span>
-                                </div>
-                            </div>
-                            <div class="contact__item mb-4">
-                                <div class="text-center">
-                                    <i class="icofont-email"></i>
-                                    <span>contact@gmail.com</span>
-                                </div>
-                            </div>
-                            <div class="contact__item mb-4">
-                                <div class="text-center">
-                                    <i class="icofont-location-pin"></i>
-                                    <span>20, Singapore</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-2" data-viewport="opacity">
-                        <form id="contact__form" class="contact__form" method="post" novalidate="novalidate">
-                            <div class="form__row">
-                                <div class="form__item">
-                                    <input type="text" name="title" placeholder="Enter title">
-                                </div>
-                                <div class="form__item">
-                                    <input type="text" name="name" placeholder="Enter your full name">
-                                </div>
-                                <div class="form__item">
-                                    <input type="email" name="email" placeholder="Enter your email address">
-                                </div>
-                            </div>
-                            <div class="form__row">
-                                <div class="form__item">
-                                    <textarea name="message" placeholder="Enter your message here"></textarea>
-                                </div>
-                            </div>
-                            <div class="form__row text-center">
-                                <button type="submit">Submit</button>
-                            </div>
-
-                        </form>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -1037,19 +1043,34 @@
     <!-- end contact -->
 
     <!-- start footer -->
-    <section class="footer px-50 py-3 py-md-4">
+    <section class="footer py-3 py-md-4">
         <div class="container-xl">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="footer__logo">T</h2>
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <h2 class="footer__logo">
+                        <img src="assets/img/logo.png" alt="logo" />
+                    </h2>
+                </div>
+
+                <div class="col-7">
                     <div class="footer__social">
-                        <ul class="footer__social--list">
-                            <li class="footer__social--item"><a href="#">Facebook</a></li>
-                            <li class="footer__social--item"><a href="#">Twitter</a></li>
-                            <li class="footer__social--item"><a href="#">Instagram</a></li>
-                            <li class="footer__social--item"><a href="#">Pinterest</a></li>
-                            <li class="footer__social--item"><a href="#">Google+</a></li>
+                        <ul class="social">
+                            <li class="li-facebook"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Facebook"> <i class="fa fa-facebook-f"></i></a></li>
+                            <li class="li-twitter"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
+                            <li class="li-instagram"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Instagram"> <i class="fa fa-instagram"></i></a></li>
+                            <li class="li-google"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Google"> <i class="fa fa-google"></i></a></li>
+                            <li class="li-flickr"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Flickr"> <i class="fa fa-flickr"></i></a></li>
+                            <li class="li-pinterest"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Pinterest"> <i class="fa fa-pinterest-p"></i></a></li>
+                            <li class="li-slack"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Slack"> <i class="fa fa-slack"></i></a></li>
+                            <li class="li-tumblr"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Tumblr"> <i class="fa fa-tumblr"></i></a></li>
+                            <li class="li-youtube"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Youtube"> <i class="fa fa-youtube"></i></a></li>
                         </ul>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="footer__copywriter text-end">
+                        Copyright © 2022 All rights reserved.
                     </div>
                 </div>
             </div>
