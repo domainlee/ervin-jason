@@ -1,19 +1,10 @@
 @media (max-width: 1200px) {
-  .header {
-    .header_inner {
-      .header__nav {
-        .header__navigation {
-          li {
-            a {
-              padding: 20px 10px;
-            }
-          }
-        }
-      }
-    }
-  }
+
 }
 @media (max-width: 992px) {
+  .container-xl {
+    padding: 0 30px;
+  }
   html {
     scroll-padding-top: 70px;
   }
@@ -162,37 +153,19 @@
     }
   }
 
-  .about-me {
-    height: calc(100vh - 70px);
+  .my-service {
+    .my-service__inner {
+      .my-service__right {
+        .my-service__list {
+          max-height: 850px;
+        }
+      }
+    }
   }
 
 }
 @media (max-width: 768px) {
-  .p-50 {
-    padding: 30px;
-  }
-  .px-50 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .header {
-    .header__one {
-      padding: 0 30px;
-      .header__logo {
-        font-size: 58px;
-        line-height: 60px;
-      }
-    }
-  }
 
-  .about-me {
-    height: calc(100vh - 60px);
-    .about-me__inner {
-      .about-me__intro {
-        padding: 0 150px;
-      }
-    }
-  }
 
   .my-resume {
     .my-resume__list {
@@ -267,125 +240,8 @@
 }
 
 @media (max-width:576px) {
-  .heading-default {
-    font-size: 20px;
-    span {
-      font-size: 12px;
-    }
-  }
-
-  .px-50 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .header {
-    .header_inner {
-      height: 50px;
-      .header__nav {
-        top: 50px;
-      }
-      .header__one {
-        padding: 0 20px;
-      }
-    }
-  }
-
-  .header--fixed {
-    height: 50px;
-  }
-
-  .about-me {
-    height: calc(100vh - 50px);
-    .about-me__inner {
-      .about-me__avatar {
-        margin: 0 auto 30px !important;
-        width: 80px;
-        height: 80px;
-      }
-      .about-me__intro {
-        padding: 0 50px;
-      }
-    }
-  }
-
-  .my-resume {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    &:before, &:after {
-      height: 40px;
-    }
-    .heading-default {
-      margin: 0;
-    }
-    .my-resume__list {
-      .my-resume__item {
-        padding: 30px 0;
-      }
-    }
-  }
-
-  .my-service {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    &:before, &:after {
-      height: 40px;
-    }
-    .my-service__inner {
-      .my-service__list {
-        margin-top: 30px;
-        .my-service__item {
-          margin: 0 0 30px;
-          width: 100%;
-        }
-      }
-    }
-  }
-
-  .my-project {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    &:before, &:after {
-      height: 40px;
-    }
-    .my-project__inner {
-      .project__list {
-        .product__item {
-          width: 100%;
-          figure {
-            .product__view {
-              height: 95px;
-              &:before {
-                margin: 10px auto 20px;
-              }
-            }
-          }
-          &:hover {
-            .product__view {
-              &:before {
-                height: 40px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .my-client {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    &:before, &:after {
-      height: 40px;
-    }
-  }
 
   .my-blog {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    &:before, &:after {
-      height: 40px;
-    }
     .my-blog__inner {
       .my-blog__list {
         .my-blog__items {
@@ -430,9 +286,4 @@
     }
   }
 
-  .footer {
-    .footer__logo {
-      font-size: 60px;
-    }
-  }
 }
