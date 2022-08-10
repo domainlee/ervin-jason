@@ -30,7 +30,7 @@ Version: 1.0.0
 
 html {
     .light {
-        display: block;
+        display: inline-block;
     }
     .dark {
         display: none;
@@ -70,7 +70,7 @@ html[data-theme='dark'] {
         display: none;
     }
     .dark {
-        display: block;
+        display: inline-block;
     }
     // init
     --text: #e3dfca;
