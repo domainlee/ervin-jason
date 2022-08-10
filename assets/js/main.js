@@ -123,7 +123,7 @@
         client_slider.owlCarousel({
             loop: true,
             margin: 0,
-            dots: true,
+            dots: false,
             nav: true,
             lazyLoad: true,
             autoplay: true,
@@ -138,7 +138,6 @@
                 },
                 768: {
                     nav: true,
-                    dots: false,
                 }
             }
         }).on('changed.owl.carousel', syncPosition);
