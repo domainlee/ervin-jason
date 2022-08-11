@@ -44,6 +44,7 @@ html {
     --bg-heading: url('../img/bg_heading.png');
     --bg-small: url('../img/bg_resume_heading_small-1.png');
     --bg-blog-heading: url('../img/bg_blog_heading.png');
+    --bg-blockquote: #f9f9f9;
 
     // about
     --bg-about-button: #000000;
@@ -81,6 +82,7 @@ html[data-theme='dark'] {
     --bg-heading: url('../img/bg_heading-dark.png');
     --bg-small: url('../img/bg_resume_heading_small-dark-1.png');
     --bg-blog-heading: url('../img/bg_blog_heading-dark.png');
+    --bg-blockquote: #040c1d;
 
     // about
     --bg-about-button: #e3dfca;

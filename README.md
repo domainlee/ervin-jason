@@ -1,17 +1,15 @@
 <h2>Overview</h2>
 <p>
- <strong>Tamal</strong> - Is a template designed with a minimalist style. It’s a modern, creative, clean, professional, attractive personal template.
+ <strong>Jason</strong> - Is a template designed with a modern style. It’s a modern, creative, clean, professional, attractive personal template.
 </p>
-<p>
- Template is developed on bootstrap 5.1.3, using webpack, scss optimized compress library.
-</p>
-<p>
- Responsive, retina display, lazy loading are also used in themes.
-</p>
+
+<p>Template is developed on bootstrap 5.1.3, using webpack, scss optimized compress library.</p>
+<p>Responsive, retina display, lazy loading are also used in themes.</p>
 <p>Template is very customizable, with notes on each component, for style and javascript</p>
 
 <h2>Features</h2>
 <ul>
+ <li>Dark / Light</li>
  <li>Built With Bootstrap 5.1.3</li>
  <li>Neat Simple and Clean Design</li>
  <li>SCSS</li>
@@ -20,7 +18,10 @@
  <li>Fully Responsive Layout</li>
  <li>Cross-Browser Compatible</li>
  <li>Free Icons, Images and Google Fonts</li>
+ <li>SEO Friendly</li>
+ <li>WC3 Validated</li>
  <li>Retina display</li>
+ <li>Flat Icon</li>
  <li>And many more</li>
 </ul>
 
@@ -60,5 +61,5 @@
 <p><strong>You may get the pictures from Unsplash (FREE)</strong></p>
 
 <h2>Change Logs</h2>
-<p><strong>31 July 22 </strong> – v1.0</p>
+<p><strong>11 Aug 22 </strong> – v1.0</p>
 <pre>--- Initial Released --- </pre>
