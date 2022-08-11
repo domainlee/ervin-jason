@@ -12,7 +12,6 @@ const config = {
         main: [
             NODE_MODULES + '/owl.carousel/dist/owl.carousel.min.js',
             JS_DIR + '/jquery.validate.min.js',
-            JS_DIR + '/masonry.pkgd.min.js',
             JS_DIR + '/jquery.magnific-popup.js',
             JS_DIR + '/modernizr-3.11.2.min.js',
             JS_DIR + '/jquery.lazy.min.js',
