@@ -27,6 +27,7 @@ Version: 1.0.0
 
 /* 1. Start Theme Default CSS */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
 
 html {
     .light {
@@ -112,6 +113,8 @@ body {
     font-weight: 300;
     background-color: $color-white;
     font-family: 'Red Hat Display', sans-serif;
+    //font-family: 'Roboto Slab', serif;
+
     transition: all 0.5s ease;
 }
 ::selection {
