@@ -153,7 +153,7 @@ img {
     color: var(--text);
     font-weight: 700;
     font-family: "Red Hat Display", sans-serif;
-    font-size: 54px;
+    font-size: 46px;
     text-align: center;
     z-index: 2;
     span {
@@ -164,6 +164,25 @@ img {
         letter-spacing: 2px;
         z-index: 2;
         position: relative;
+    }
+    strong {
+        position: relative;
+        padding: 0 10px;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 5px;
+            bottom: 5px;
+            left: 0;
+            right: 0;
+            background-color: #efba02;
+            z-index: -1;
+            -webkit-transform: rotate(-1deg);
+            -moz-transform: rotate(-1deg);
+            -o-transform: rotate(-1deg);
+            -ms-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+        }
     }
     &.is-on {
     }
@@ -178,6 +197,7 @@ img {
     color: var(--text);
     box-shadow: 3px 3px;
     border: 1px solid;
+    border-radius: 5px;
     i {
         display: none;
         margin: 0 10px 0 0;
@@ -351,6 +371,7 @@ img {
             font-weight: 400;
             border: 1px solid #000;
             box-shadow: 3px 3px #000;
+            border-radius: 5px;
             @extend .bg-blue-gradient;
             i {
                 margin: 0 0 5px;
@@ -397,6 +418,7 @@ img {
             top: inherit;
             box-shadow: 3px 3px #000;
             border: 1px solid #000;
+            border-radius: 5px;
             @extend .bg-green-gradient;
 
             strong {
@@ -447,6 +469,7 @@ img {
             color: #000;
             box-shadow: 3px 3px #000;
             border: 1px solid;
+            border-radius: 5px;
             animation: animation-clients 1.5s 1s infinite linear alternate;
             @extend .bg-orange-gradient;
             .brand {
@@ -498,6 +521,7 @@ img {
                 transition: all .3s ease;
                 box-shadow: 3px 3px #000;
                 border: 1px solid;
+                border-radius: 5px;
                 &:hover {
                     transform: translate(0, -2px);
                     box-shadow: 4px 4px #000;
@@ -757,11 +781,12 @@ img {
 
                     .my-service__item--inner {
                         padding: 35px;
-                        border: 1px solid #000;
+                        border: 2px solid #000;
                         background-color: var(--bg-section);
                         color: var(--text);
                         transition: all .5s ease;
                         box-shadow: 0 0 #000;
+                        border-radius: 10px;
                         i {
                             font-size: 24px;
                             color: var(--text-main);
@@ -784,7 +809,7 @@ img {
                     }
                     &.is-on {
                         .my-service__item--inner {
-                            box-shadow: 4px 4px #000;
+                            box-shadow: 5px 5px #000;
                         }
                     }
                     &:hover {
@@ -1055,13 +1080,19 @@ img {
                 width: 50%;
                 transition: all 0.5s ease;
                 .my-blog__items--inner {
+                    padding: 25px;
                     height: 100%;
                     transition: all .5s ease;
                     cursor: pointer;
+                    border: 2px solid;
+                    background-color: #FFF;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px;
                     .my-blog__detail {
                         figure {
                             transition: all 0.5s ease;
                             border-radius: 5px;
+                            border: 2px solid;
                         }
                         .my-blog__items--content {
                             z-index: 2;
