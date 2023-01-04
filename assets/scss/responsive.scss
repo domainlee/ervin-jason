@@ -79,12 +79,12 @@
         .header__navigation {
           z-index: 3;
           li {
+            margin: 10px 0;
             opacity: 0;
             visibility: hidden;
             transition: all 0.8s ease;
             transform: translate(0, 5px);
             a {
-              padding: 15px 12px;
               font-size: 18px;
             }
             @for $i from 1 through 8 {
@@ -245,7 +245,7 @@
             .my-blog__detail  {
               .my-blog__items--content {
                 h3 {
-                  font-size: 18px;
+                  font-size: 20px;
                 }
               }
             }
@@ -267,6 +267,21 @@
   .container-xl {
     padding: 0 20px;
   }
+
+  .header {
+    .head__fix & {
+      top: -65px;
+    }
+    .head__show & {
+      top: 0;
+    }
+    .header_inner {
+      height: 65px;
+      .header__nav {
+        top: 66px;
+      }
+    }
+  }
   .my-resume {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -279,7 +294,24 @@
 
     .my-resume__item {
       .my-resume__skill--item {
-        margin: 0 0 10px;
+        margin: 0 0 30px;
+        padding: 0;
+        > label {
+          width: 180px;
+          font-size: 15px;
+        }
+        > div {
+          .count {
+            font-size: 14px;
+          }
+        }
+      }
+      .experience__list {
+        .experience__item {
+          &:last-child {
+            margin: 0 0 30px;
+          }
+        }
       }
       .heading-default__small {
         &:after {
@@ -296,8 +328,9 @@
       .about-me__clients {
         width: 100px;
         height: 60px;
-        bottom: 150px;
-        right: -35px;
+        bottom: 0;
+        top: 55px;
+        right: -40px;
         font-size: 12px;
         .brand {
           display: none;
@@ -307,7 +340,7 @@
         width: 85px;
         height: 85px;
         top: 0;
-        left: 0;
+        left: -20px;
         font-size: 12px;
         &:before {
           width: 40px;
@@ -376,8 +409,12 @@
     }
   }
 
+  .heading-default {
+    margin: 0 0 30px;
+    font-size: 42px;
+  }
+
   .heading-default__small {
-    margin: 0 0 20px;
     font-size: 18px;
   }
 
@@ -395,10 +432,10 @@
         .my-service__list {
           max-height: inherit;
           .my-service__item {
-            margin: 10px 0;
+            margin: 0 0 30px;
             width: 100%;
             &:nth-child(1) {
-              margin: 10px 0;
+              margin: 0 0 30px;
             }
           }
         }

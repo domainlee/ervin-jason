@@ -277,6 +277,7 @@ img {
     position: fixed;
     top: 0;
     border-bottom: 1px solid #000;
+    transition: top 0.5s ease;
     .head__fix & {
         top: -70px;
     }
@@ -318,7 +319,7 @@ img {
             }
         }
         .button-dark-mode {
-            padding: 23px 35px;
+            padding: 23px 30px;
             color: var(--text);
             cursor: pointer;
             border-left: 1px solid;
@@ -639,6 +640,9 @@ img {
         .experience__list {
             .experience__item {
                 margin: 0 0 30px;
+                &:last-child {
+                    margin: 0;
+                }
                 .experience__date {
                     margin: 0 0 5px;
                     font-weight: 700;
@@ -654,6 +658,9 @@ img {
                 }
                 .experience__description {
                     font-size: 16px;
+                    p {
+                        margin: 0;
+                    }
                 }
             }
         }
@@ -661,6 +668,9 @@ img {
         .awards__list {
             .awards__item {
                 margin: 0 0 30px;
+                &:last-child {
+                    margin: 0;
+                }
                 .awards__date {
                     margin: 0 0 5px;
                     font-weight: 700;
@@ -672,6 +682,9 @@ img {
                 }
                 .awards__description {
                     font-size: 16px;
+                    p {
+                        margin: 0;
+                    }
                 }
             }
         }
@@ -773,6 +786,7 @@ img {
             .my-service__list {
                 margin-left: -15px;
                 margin-right: -15px;
+                margin-bottom: -30px;
                 display: flex;
                 flex-flow: column wrap;
                 max-height: 750px;
@@ -911,7 +925,7 @@ img {
             }
         }
         .project__list {
-            margin: 0 -15px;
+            margin: 0 -15px -15px;
             display: flex;
             flex-wrap: wrap;
             .product__item {
@@ -969,6 +983,7 @@ img {
                     .product__content {
                         padding: 30px 0;
                         border-top: 2px solid;
+                        transition: background-color 0.5s ease;
                         .product__name {
                             font-size: 24px;
                             letter-spacing: 1px;
@@ -979,6 +994,7 @@ img {
                             color: #919191;
                             font-family: "Noto Serif Display",serif;
                             font-style: italic;
+                            transition: color 0.5s ease;
                         }
                     }
 
@@ -989,6 +1005,10 @@ img {
                         transform: translate(0, -8px);
                         .product__content {
                             opacity: 1;
+                            background-color: #F0BA02;
+                            .product__score {
+                                color: #000;
+                            }
                             .product__view {
                                 a {
                                     &:after {
@@ -1017,7 +1037,7 @@ img {
             text-align: center;
             color: var(--text);
             .my-client__intro {
-                margin: 80px 0;
+                margin: 65px 0;
                 padding: 0 50px;
                 position: relative;
                 &:before {
@@ -1069,7 +1089,7 @@ img {
             }
         }
         figure {
-            margin: 10px;
+            margin: 0 10px;
             width: 60px;
             height: 60px;
             display: inline-block;
@@ -1342,7 +1362,7 @@ img {
                         transition: all .3s ease;
                         &:focus {
                             outline: none;
-                            box-shadow: 5px 5px #d8d8d8;
+                            box-shadow: 5px 5px #efba02;
                         }
                         &.error {
                             box-shadow: 3px 3px #bc8787;
