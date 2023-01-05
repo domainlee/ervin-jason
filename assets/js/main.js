@@ -37,7 +37,7 @@
         }
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".type--js > .wrap { border-right: 0.08em solid #000000}";
+        css.innerHTML = ".type--js > .wrap { border-right: 0.08em solid}";
         document.body.appendChild(css);
     }
 
@@ -257,12 +257,6 @@
     var scrollTo = function () {
         if($('.home').length) {
             return new bootstrap.ScrollSpy(document.body,{
-                target: ".header__menu",
-                offset: 150
-            });
-        }
-        if($('.home-brc').length) {
-            return new bootstrap.ScrollSpy($('.scroll'),{
                 target: ".header__menu",
                 offset: 150
             });

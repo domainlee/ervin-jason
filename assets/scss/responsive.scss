@@ -430,12 +430,13 @@
       }
       .my-service__right {
         .my-service__list {
+          margin-bottom: -20px;
           max-height: inherit;
           .my-service__item {
-            margin: 0 0 30px;
+            margin: 0 0 20px;
             width: 100%;
             &:nth-child(1) {
-              margin: 0 0 30px;
+              margin: 0 0 20px;
             }
           }
         }

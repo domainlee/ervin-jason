@@ -6,14 +6,14 @@ $post = array(
         'id' => '1',
         'title' => 'Facebook Said to Consider Banning Political Ads',
         'date' => 'June 2, 2022',
-        'image' => 'assets/images/16-9.jpg',
+        'image' => 'assets/images/leone-venter-pVt9j3iWtPM-unsplash.jpg',
         'category' => 'Life',
         'content' => '<div class="editor-content editor-content__dropcap">
                         <p>Cu duo antiopam platonem electram. Dicam tibique an qui, ius ut integre rationibus, ad eos facilisi voluptatibus. Has et impetus labitur, ea duo laoreet sententiae. Hendrerit efficiendi voluptatibus has ea, corrumpit democritum eu sea, eum ex vero veniam. Dicunt ornatus laoreet te eam, vix eu zril epicuri deseruisse. <a href="#">Lorem ipsum</a> dolor sit amet, eu postulant principes quo, an melius scaevola quo. Pri no malorum omittantur, nusquam conclusionemque an sea. Usu amet minim intellegat ut. Ut putant latine petentium sea, sit alii meliore eu.</p>
                         <p>Vix et labitur epicuri dissentiunt, habemus complectitur an qui, ei qui hinc falli aperiam. Te <a href="#">eos altera</a> eruditi, in cum adipisci sadipscing, modo numquam recusabo cu eum. Augue putant <a href="#">dissentiunt</a> at qui. At pro accusata prodesset vituperatoribus, vel feugait corpora suscipit ut, paulo equidem dissentias ei his.</p>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
                         <figure class="alignleft">
-                            <img src="assets/images/4-3.jpg" alt="">
+                            <img src="assets/images/amelie-mourichon-wusOJ-2uY6w-unsplash.jpg" alt="">
                             <figcaption>Cu duo antiopam platonem electram</figcaption>
                         </figure>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
@@ -21,7 +21,7 @@ $post = array(
                         <p>Vel posse suavitate ne. Nam ut enim verear latine, et latine aeterno menandri vel. Fugit habemus posidonium te est, cu his primis tincidunt inciderint. At aeque corpora nam, saepe perfecto at eos. Invidunt reprimique ius an.</p>
                         <blockquote><p>I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world</p></blockquote>
                         <figure class="aligncenter">
-                            <img src="assets/images/3-2.jpg" alt="">
+                            <img src="assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="">
                             <figcaption>Align center</figcaption>
                         </figure>
                         <h2>Ordered List</h2>
@@ -50,12 +50,12 @@ $post = array(
                     <div class="editor-content editor-content__col-two">
                         <p>Cu duo antiopam platonem electram. Dicam tibique an qui, ius ut integre rationibus, ad eos facilisi voluptatibus. Has et impetus labitur, ea duo laoreet sententiae. Hendrerit efficiendi voluptatibus has ea, corrumpit democritum eu sea, eum ex vero veniam. Dicunt ornatus laoreet te eam, vix eu zril epicuri deseruisse. <a href="#">Lorem ipsum</a> dolor sit amet, eu postulant principes quo, an melius scaevola quo. Pri no malorum omittantur, nusquam conclusionemque an sea. Usu amet minim intellegat ut. Ut putant latine petentium sea, sit alii meliore eu.</p>
                         <figure class="alignright">
-                            <img src="assets/images/4-3.jpg" alt="">
+                            <img src="assets/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg" alt="">
                             <figcaption>Align right</figcaption>
                         </figure>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
                         <figure class="alignleft">
-                            <img src="assets/images/16-9.jpg" alt="">
+                            <img src="assets/images/lum3n--RBuQ2PK_L8-unsplash.jpg" alt="">
                             <figcaption>Align left</figcaption>
                         </figure>
                         <p class="has-drop-cap">Has no velit ullamcorper, tale aliquando constituto ei sea, sit iisque facilisi ei. Ad quo possit disputationi. Eam invenire laboramus constituam ex, vel dolore antiopam ex, te pro tota sonet noluisse. Menandri molestiae eum an, pri ut ludus deterruisset delicatissimi. At noster iriure nec, et vix dico graecis.</p>
@@ -70,14 +70,14 @@ $post = array(
         'id' => '2',
         'title' => 'Facebook Said to Consider Banning Political Ads',
         'date' => 'June 2, 2022',
-        'image' => 'assets/images/16-9.jpg',
+        'image' => 'assets/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg',
         'category' => 'Travel',
         'content' => '<div class="editor-content editor-content__dropcap">
                         <p>Cu duo antiopam platonem electram. Dicam tibique an qui, ius ut integre rationibus, ad eos facilisi voluptatibus. Has et impetus labitur, ea duo laoreet sententiae. Hendrerit efficiendi voluptatibus has ea, corrumpit democritum eu sea, eum ex vero veniam. Dicunt ornatus laoreet te eam, vix eu zril epicuri deseruisse. <a href="#">Lorem ipsum</a> dolor sit amet, eu postulant principes quo, an melius scaevola quo. Pri no malorum omittantur, nusquam conclusionemque an sea. Usu amet minim intellegat ut. Ut putant latine petentium sea, sit alii meliore eu.</p>
                         <p>Vix et labitur epicuri dissentiunt, habemus complectitur an qui, ei qui hinc falli aperiam. Te <a href="#">eos altera</a> eruditi, in cum adipisci sadipscing, modo numquam recusabo cu eum. Augue putant <a href="#">dissentiunt</a> at qui. At pro accusata prodesset vituperatoribus, vel feugait corpora suscipit ut, paulo equidem dissentias ei his.</p>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
                         <figure class="alignleft">
-                            <img src="assets/images/3-2.jpg" alt="">
+                            <img src="assets/images/amelie-mourichon-wusOJ-2uY6w-unsplash.jpg" alt="">
                             <figcaption>Cu duo antiopam platonem electram</figcaption>
                         </figure>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
@@ -85,7 +85,7 @@ $post = array(
                         <p>Vel posse suavitate ne. Nam ut enim verear latine, et latine aeterno menandri vel. Fugit habemus posidonium te est, cu his primis tincidunt inciderint. At aeque corpora nam, saepe perfecto at eos. Invidunt reprimique ius an.</p>
                         <blockquote><p>I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world</p></blockquote>
                         <figure class="aligncenter">
-                            <img src="assets/images/16-9.jpg" alt="">
+                            <img src="assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="">
                             <figcaption>Align center</figcaption>
                         </figure>
                         <h2>Ordered List</h2>
@@ -114,12 +114,12 @@ $post = array(
                     <div class="editor-content editor-content__col-two">
                         <p>Cu duo antiopam platonem electram. Dicam tibique an qui, ius ut integre rationibus, ad eos facilisi voluptatibus. Has et impetus labitur, ea duo laoreet sententiae. Hendrerit efficiendi voluptatibus has ea, corrumpit democritum eu sea, eum ex vero veniam. Dicunt ornatus laoreet te eam, vix eu zril epicuri deseruisse. <a href="#">Lorem ipsum</a> dolor sit amet, eu postulant principes quo, an melius scaevola quo. Pri no malorum omittantur, nusquam conclusionemque an sea. Usu amet minim intellegat ut. Ut putant latine petentium sea, sit alii meliore eu.</p>
                         <figure class="alignright">
-                            <img src="assets/images/4-3.jpg" alt="">
+                            <img src="assets/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg" alt="">
                             <figcaption>Align right</figcaption>
                         </figure>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
                         <figure class="alignleft">
-                            <img src="assets/images/3-2.jpg" alt="">
+                            <img src="assets/images/lum3n--RBuQ2PK_L8-unsplash.jpg" alt="">
                             <figcaption>Align left</figcaption>
                         </figure>
                         <p class="has-drop-cap">Has no velit ullamcorper, tale aliquando constituto ei sea, sit iisque facilisi ei. Ad quo possit disputationi. Eam invenire laboramus constituam ex, vel dolore antiopam ex, te pro tota sonet noluisse. Menandri molestiae eum an, pri ut ludus deterruisset delicatissimi. At noster iriure nec, et vix dico graecis.</p>
@@ -134,14 +134,14 @@ $post = array(
         'id' => '3',
         'title' => 'How to Make Your Tech Last Longer',
         'date' => 'June 2, 2022',
-        'image' => 'assets/images/16-9.jpg',
+        'image' => 'assets/images/aaron-burden-y02jEX_B0O0-unsplash.jpg',
         'category' => 'Tutorial',
         'content' => '<div class="editor-content editor-content__dropcap">
                         <p>Cu duo antiopam platonem electram. Dicam tibique an qui, ius ut integre rationibus, ad eos facilisi voluptatibus. Has et impetus labitur, ea duo laoreet sententiae. Hendrerit efficiendi voluptatibus has ea, corrumpit democritum eu sea, eum ex vero veniam. Dicunt ornatus laoreet te eam, vix eu zril epicuri deseruisse. <a href="#">Lorem ipsum</a> dolor sit amet, eu postulant principes quo, an melius scaevola quo. Pri no malorum omittantur, nusquam conclusionemque an sea. Usu amet minim intellegat ut. Ut putant latine petentium sea, sit alii meliore eu.</p>
                         <p>Vix et labitur epicuri dissentiunt, habemus complectitur an qui, ei qui hinc falli aperiam. Te <a href="#">eos altera</a> eruditi, in cum adipisci sadipscing, modo numquam recusabo cu eum. Augue putant <a href="#">dissentiunt</a> at qui. At pro accusata prodesset vituperatoribus, vel feugait corpora suscipit ut, paulo equidem dissentias ei his.</p>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
                         <figure class="alignleft">
-                            <img src="assets/images/4-3.jpg" alt="">
+                            <img src="assets/images/amelie-mourichon-wusOJ-2uY6w-unsplash.jpg" alt="">
                             <figcaption>Cu duo antiopam platonem electram</figcaption>
                         </figure>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
@@ -149,7 +149,7 @@ $post = array(
                         <p>Vel posse suavitate ne. Nam ut enim verear latine, et latine aeterno menandri vel. Fugit habemus posidonium te est, cu his primis tincidunt inciderint. At aeque corpora nam, saepe perfecto at eos. Invidunt reprimique ius an.</p>
                         <blockquote><p>I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world</p></blockquote>
                         <figure class="aligncenter">
-                            <img src="assets/images/3-2.jpg" alt="">
+                            <img src="assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="">
                             <figcaption>Align center</figcaption>
                         </figure>
                         <h2>Ordered List</h2>
@@ -178,12 +178,12 @@ $post = array(
                     <div class="editor-content editor-content__col-two">
                         <p>Cu duo antiopam platonem electram. Dicam tibique an qui, ius ut integre rationibus, ad eos facilisi voluptatibus. Has et impetus labitur, ea duo laoreet sententiae. Hendrerit efficiendi voluptatibus has ea, corrumpit democritum eu sea, eum ex vero veniam. Dicunt ornatus laoreet te eam, vix eu zril epicuri deseruisse. <a href="#">Lorem ipsum</a> dolor sit amet, eu postulant principes quo, an melius scaevola quo. Pri no malorum omittantur, nusquam conclusionemque an sea. Usu amet minim intellegat ut. Ut putant latine petentium sea, sit alii meliore eu.</p>
                         <figure class="alignright">
-                            <img src="assets/images/16-9.jpg" alt="">
+                            <img src="assets/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg" alt="">
                             <figcaption>Align right</figcaption>
                         </figure>
                         <p>Pro in ridens possit referrentur, ne odio tibique duo. Lorem persecuti scribentur ut est. Eu novum tation persius nec. Sed soluta primis splendide ei. Vis ei tritani alterum petentium, usu sint intellegat ne. Sed in tota nobis prompta, noluisse delicatissimi at ius. <a rel="noreferrer noopener" href="#" target="_blank">Veri placerat</a> mel in, paulo persius omittantur in mei, putant molestie suscipiantur vis ad. Ut mel tollit tacimates suscipiantur, sit audire recusabo philosophia ad, mei amet animal pertinax eu. Mea ipsum offendit appetere eu, justo ubique fierent vis ne. Probo omnesque has ex. Pro no lorem temporibus ullamcorper, no qui democritum consectetuer, habemus pericula eu sit.</p>
                         <figure class="alignleft">
-                            <img src="assets/images/4-3.jpg" alt="">
+                            <img src="assets/images/lum3n--RBuQ2PK_L8-unsplash.jpg" alt="">
                             <figcaption>Align left</figcaption>
                         </figure>
                         <p class="has-drop-cap">Has no velit ullamcorper, tale aliquando constituto ei sea, sit iisque facilisi ei. Ad quo possit disputationi. Eam invenire laboramus constituam ex, vel dolore antiopam ex, te pro tota sonet noluisse. Menandri molestiae eum an, pri ut ludus deterruisset delicatissimi. At noster iriure nec, et vix dico graecis.</p>
@@ -241,7 +241,7 @@ $view = '<section class="single-page mb-5">
                         <!--- start component author --->
                         <div class="post-author d-none">
                             <figure>
-                                <a href="#"><img src="assets/images/1-1.jpg"></a>
+                                <a href="#"><img src="assets/images/omid-armin-wrXziQTIFUY-unsplash.jpg"></a>
                             </figure>
                             <div class="post-author__info">
                                 <h3 class="post-author__name"><a href="#">Ms Jane</a></h3>
@@ -278,7 +278,7 @@ $view = '<section class="single-page mb-5">
                             <div class="related-post__list">
                                 <div class="related-post__item">
                                     <a href="#">
-                                        <figure class="lazy related-post__image" data-src="assets/images/4-3.jpg"></figure>
+                                        <figure class="lazy related-post__image" data-src="assets/images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg"></figure>
                                     </a>
                                     <div class="entry mt-0 mb-2">
                                         <span class="entry__date">June 2, 2020</span>
@@ -288,7 +288,7 @@ $view = '<section class="single-page mb-5">
                                 </div>
                                 <div class="related-post__item">
                                     <a href="#">
-                                        <figure class="lazy related-post__image" data-src="assets/images/4-3.jpg"></figure>
+                                        <figure class="lazy related-post__image" data-src="assets/images/domenico-loia-hGV2TfOh0ns-unsplash.jpg"></figure>
                                     </a>
                                     <div class="entry mt-0 mb-2">
                                         <span class="entry__date">June 2, 2020</span>
@@ -298,7 +298,7 @@ $view = '<section class="single-page mb-5">
                                 </div>
                                 <div class="related-post__item">
                                     <a href="#">
-                                        <figure class="lazy related-post__image" data-src="assets/images/4-3.jpg"></figure>
+                                        <figure class="lazy related-post__image" data-src="assets/images/leone-venter-pVt9j3iWtPM-unsplash.jpg"></figure>
                                     </a>
                                     <div class="entry mt-0 mb-2">
                                         <span class="entry__date">June 2, 2020</span>
@@ -320,7 +320,7 @@ $view = '<section class="single-page mb-5">
                                     <ol class="commentlist">
                                         <li id="li-comment-4">
                                             <article class="comment even thread-even depth-1 clr" id="comment-4">
-                                                <div class="comment-author vcard"> <img width="60" height="60" src="assets/images/1-1.jpg" alt=""></div>
+                                                <div class="comment-author vcard"> <img width="60" height="60" src="assets/images/omid-armin-DRB6i_jIbww-unsplash.jpg" alt=""></div>
                                                 <div class="comment-details clr ">
                                                     <header class="comment-meta"> <strong class="fn"> Steven Jobs </strong> <span class="comment-date">July 4, 2017 7:25 am </span></header>
                                                     <div class="comment-content entry clr">
@@ -332,7 +332,7 @@ $view = '<section class="single-page mb-5">
                                             <ul class="children">
                                                 <li id="li-comment-6">
                                                     <article class="comment odd alt depth-2 clr" id="comment-6">
-                                                        <div class="comment-author vcard"><img width="60" height="60" src="assets/images/1-1.jpg" alt=""></div>
+                                                        <div class="comment-author vcard"><img width="60" height="60" src="assets/images/mehrab-zahedbeigi-Wa3v4Fd8xBg-unsplash.jpg" alt=""></div>
                                                         <div class="comment-details clr ">
                                                             <header class="comment-meta"> <strong class="fn"> Jim Calist </strong> <span class="comment-date">July 16, 2017 1:29 am </span></header>
                                                             <div class="comment-content entry clr">
@@ -346,7 +346,7 @@ $view = '<section class="single-page mb-5">
                                         </li>
                                         <li id="li-comment-5">
                                             <article class="comment even thread-odd thread-alt depth-1 clr" id="comment-5">
-                                                <div class="comment-author vcard"> <img width="60" height="60" src="assets/images/1-1.jpg" alt=""></div>
+                                                <div class="comment-author vcard"> <img width="60" height="60" src="assets/images/omid-armin-wrXziQTIFUY-unsplash.jpg" alt=""></div>
                                                 <div class="comment-details clr ">
                                                     <header class="comment-meta"> <strong class="fn"> Steven Jobs </strong> <span class="comment-date">July 4, 2017 7:25 am </span></header>
                                                     <div class="comment-content entry clr">
@@ -358,7 +358,7 @@ $view = '<section class="single-page mb-5">
                                         </li>
                                         <li id="li-comment-85">
                                             <article class="comment byuser comment-author-spadmin bypostauthor odd alt thread-even depth-1 clr" id="comment-85">
-                                                <div class="comment-author vcard"><img width="60" height="60" src="assets/images/1-1.jpg" alt=""></div>
+                                                <div class="comment-author vcard"><img width="60" height="60" src="assets/images/mehrab-zahedbeigi-Wa3v4Fd8xBg-unsplash.jpg" alt=""></div>
                                                 <div class="comment-details clr ">
                                                     <header class="comment-meta"> <strong class="fn"> Steven Jobs <span class="author-badge"></span> </strong> <span class="comment-date">May 10, 2018 2:41 am </span></header>
                                                     <div class="comment-content entry clr">
@@ -370,7 +370,7 @@ $view = '<section class="single-page mb-5">
                                         </li>
                                         <li id="li-comment-86">
                                             <article class="comment byuser comment-author-spadmin bypostauthor even thread-odd thread-alt depth-1 clr" id="comment-86">
-                                                <div class="comment-author vcard"><img width="60" height="60" src="assets/images/1-1.jpg" alt=""></div>
+                                                <div class="comment-author vcard"><img width="60" height="60" src="assets/images/omid-armin-DRB6i_jIbww-unsplash.jpg" alt=""></div>
                                                 <div class="comment-details clr ">
                                                     <header class="comment-meta"> <strong class="fn"> Steven Jobs <span class="author-badge"></span> </strong> <span class="comment-date">May 10, 2018 2:42 am </span></header>
                                                     <div class="comment-content entry clr">
