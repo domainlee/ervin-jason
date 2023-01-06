@@ -195,6 +195,15 @@
 
   .my-resume {
     .my-resume__list {
+      .my-resume__item {
+        .experience__list {
+          .experience__item {
+            &:last-child {
+              margin: 0 0 30px;
+            }
+          }
+        }
+      }
     }
   }
 
