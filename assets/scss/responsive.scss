@@ -153,6 +153,20 @@
     }
   }
 
+  .about-me {
+    .about-me__avatar {
+      .about-me__clients {
+        right: -95px;
+      }
+      .about-me__awards {
+        left: -50px;
+      }
+      .about-me__exp {
+        bottom: 10px;
+      }
+    }
+  }
+
   .my-service {
     .my-service__inner {
       .my-service__left {
