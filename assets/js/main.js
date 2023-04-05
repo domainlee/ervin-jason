@@ -72,12 +72,12 @@
 
         $(window).scroll(function() {
             var scrollTop = $('html').scrollTop();
-            if(scrollTop >= 70) {
+            if(scrollTop >= 150) {
                 $('body').addClass('head__fix');
             } else {
                 $('body').removeClass('head__fix');
             }
-            if(scrollTop >= 600) {
+            if(scrollTop >= 800) {
                 $('body').addClass('head__show');
             } else {
                 $('body').removeClass('head__show');

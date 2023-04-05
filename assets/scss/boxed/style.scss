@@ -235,10 +235,10 @@ img {
 .home-second__inner {
     margin: 100px;
     padding: 0 40px;
-    border: 2px solid #000;
+    border: 3px solid #000;
     border-radius: 25px;
     box-shadow: 7px 7px;
-    overflow: hidden;
+    //overflow: hidden;
     background-color: var(--bg);
 }
 
@@ -292,25 +292,34 @@ img {
 
 /** 3. Start Header **/
 .header {
+    margin: 0 100px;
+    padding: 0 40px;
     z-index: 5;
-    overflow: hidden;
-    background-color: var(--bg);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    border-bottom: 1px solid var(--border-top);
+    //background-color: var(--bg);
     transition: top 0.5s ease;
+    //position: absolute;
+    //left: 0;
+    //right: 0;
     .head__fix & {
-        top: -70px;
+        position: fixed;
+        top: -100px;
+        left: 0;
+        right: 0;
     }
     .head__show & {
         top: 0;
+        left: 0;
+        right: 0;
     }
     .header_inner {
-        height: 70px;
+        height: 100px;
+        .head__show & {
+            background-color: var(--bg);
+            height: 70px;
+        }
         .header__logo {
             img {
-                height: 36px;
+                height: 40px;
             }
         }
         .header__nav {
@@ -353,7 +362,7 @@ img {
     }
 }
 .header--fixed {
-    height: 70px;
+    height: 100px;
     width: 100%;
     z-index: -1;
     background-color: var(--bg);
@@ -370,7 +379,7 @@ img {
 }
 /** 4. Start About me **/
 .about-me {
-    height: calc(100vh - 70px);
+    padding: 50px 0;
     background-color: var(--bg);
     .about-me__avatar {
         position: relative;
