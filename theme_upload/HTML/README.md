@@ -1,6 +1,6 @@
 <h2>Overview</h2>
 <p>
- <strong>Jason</strong> - Is a template designed with a modern style. It’s a modern, creative, clean, professional, attractive personal template.
+ <strong>Lyn</strong> - Is a template designed with a modern style. It’s a modern, creative, clean, professional, attractive personal template.
 </p>
 
 <p>Template is developed on bootstrap 5.1.3, using webpack, scss optimized compress library.</p>

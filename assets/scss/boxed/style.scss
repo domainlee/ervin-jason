@@ -945,6 +945,7 @@ img {
                     z-index: 1;
                     box-shadow: 3px 3px transparent;
                     border: 1px solid transparent;
+                    cursor: pointer;
                     &:after {
                         content: '';
                     }
