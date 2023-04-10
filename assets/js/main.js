@@ -66,8 +66,9 @@
             $(this).toggleClass('active')
         });
 
-        $('.header__button--close').click(function () {
+        $('.header__button--close, .header__button-close').click(function () {
             $('body').removeClass('nav-open-js');
+            button_nav.removeClass('active');
         });
 
         $(window).scroll(function() {

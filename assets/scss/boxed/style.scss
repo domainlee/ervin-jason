@@ -1,5 +1,5 @@
 /*
-Theme Name: Ervin Jason
+Theme Name: Lyn
 Author: domainlee
 Support: domainlee.niit@gmail.com
 Description: Template personal for blog , my cv, resume ...
@@ -50,6 +50,8 @@ html {
     --border-top: #000000;
     --border-skill: #000000;
 
+    --bg-home-second: #e5d8d1;
+
     // about
     --bg-about-button: #000000;
     --text-about-button: #FFFFFF;
@@ -92,6 +94,8 @@ html[data-theme='dark'] {
     --border-top: #353535;
     --border-skill: #cecece;
 
+    --bg-home-second: #3b3b3b;
+
     // about
     --bg-about-button: #e3dfca;
     --text-about-button: #040c1d;
@@ -126,7 +130,7 @@ body {
 
     transition: all 0.5s ease;
     &.home-second {
-        background-color: #e5d8d1;
+        background-color: var(--bg-home-second);
     }
 }
 ::selection {
@@ -233,13 +237,14 @@ img {
 }
 
 .home-second__inner {
-    margin: 100px;
-    padding: 0 40px;
+    margin: 100px 0;
+    padding: 0 30px;
     border: 3px solid #000;
     border-radius: 25px;
     box-shadow: 7px 7px;
-    //overflow: hidden;
+    overflow: hidden;
     background-color: var(--bg);
+    position: relative;
 }
 
 /* End Theme Default CSS */
@@ -292,15 +297,17 @@ img {
 
 /** 3. Start Header **/
 .header {
-    margin: 0 100px;
+    //margin: 0 100px;
     padding: 0 40px;
     z-index: 5;
     //background-color: var(--bg);
     transition: top 0.5s ease;
-    //position: absolute;
-    //left: 0;
-    //right: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
     .head__fix & {
+        margin: 0 100px;
+        padding: 0 13px;
         position: fixed;
         top: -100px;
         left: 0;
@@ -314,6 +321,7 @@ img {
     .header_inner {
         height: 100px;
         .head__show & {
+            margin: 0 25px;
             background-color: var(--bg);
             height: 70px;
         }
@@ -359,6 +367,9 @@ img {
             font-size: 13px;
             color: #999;
         }
+    }
+    a.header__button-close {
+        display: none;
     }
 }
 .header--fixed {
