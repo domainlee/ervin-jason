@@ -1,5 +1,14 @@
 @media (max-width: 1200px) {
-
+  .header {
+    .head__fix & {
+      margin: 0 15px;
+    }
+    .header_inner {
+      .head__show & {
+        margin: 0;
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
   .container-xl {
@@ -15,6 +24,9 @@
     width: 100% !important;
   }
   .header {
+    .head__fix & {
+      margin: 0 20px;
+    }
     .header_inner {
       .header__button-menu {
         margin: 0 0 0 20px;
@@ -28,6 +40,7 @@
         cursor: pointer;
         transition: opacity 0.5s ease;
         position: relative;
+        z-index: 0;
         &:before {
           content: 'Menu';
           position: absolute;
@@ -71,11 +84,12 @@
       }
       .header__nav {
         position: fixed;
-        top: 71px;
+        top: 0;
         bottom: 0;
         left: 0;
         right: 0;
         visibility: hidden;
+        z-index: 1;
         .header__navigation {
           z-index: 3;
           li {
@@ -151,6 +165,28 @@
     &.w-25 {
       width: 100% !important;
     }
+
+    a.header__button-close {
+      border: 2px solid;
+      width: 40px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      position: fixed;
+      right: 30px;
+      top: 30px;
+      display: inline-flex;
+      z-index: 3;
+      transition: all 0.5s ease;
+      opacity: 0;
+      visibility: hidden;
+      cursor: pointer;
+      .nav-open-js & {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
   }
 
   .about-me {
@@ -205,6 +241,18 @@
       width: 250px;
       height: 30px;
     }
+  }
+
+  .header {
+    padding: 0;
+    .head__fix & {
+      margin: 0 10px;
+    }
+    .head__show & {
+    }
+    .header_inner {
+    }
+
   }
 
   .my-resume {
@@ -290,8 +338,16 @@
   .container-xl {
     padding: 0 20px;
   }
+  .header--fixed {
+    height: 65px;
+  }
+  .home-second__inner {
+    margin: 50px 0;
+    padding: 0 20px;
+  }
 
   .header {
+    padding: 0;
     .head__fix & {
       top: -65px;
     }
@@ -301,7 +357,7 @@
     .header_inner {
       height: 65px;
       .header__nav {
-        top: 66px;
+        top: 0;
       }
     }
   }

@@ -50,6 +50,8 @@ html {
     --border-top: #000000;
     --border-skill: #000000;
 
+    --bg-home-second: #e5d8d1;
+
     // about
     --bg-about-button: #000000;
     --text-about-button: #FFFFFF;
@@ -83,14 +85,16 @@ html[data-theme='dark'] {
     --bg: #282828;
     --bg-section: #3c3c3c;
     --bg-selection: #fffdf1;
-    --text-selection: #111;
+    --text-selection: #030a16;
     --bg-heading: url('../img/bg_heading-dark.png');
     --bg-small: url('../img/bg_resume_heading_small-dark-1.png');
     --bg-blog-heading: url('../img/bg_blog_heading-dark.png');
     --bg-service-left: url("../img/bg_serivce_left-dark.png");
-    --bg-blockquote: #2c2c2c;
+    --bg-blockquote: #040c1d;
     --border-top: #353535;
     --border-skill: #cecece;
+
+    --bg-home-second: #3b3b3b;
 
     // about
     --bg-about-button: #e3dfca;
@@ -125,6 +129,9 @@ body {
     //font-family: 'Roboto Slab', serif;
 
     transition: all 0.5s ease;
+    &.home-second {
+        background-color: var(--bg-home-second);
+    }
 }
 ::selection {
     background: var(--bg-selection);
@@ -229,6 +236,16 @@ img {
 
 }
 
+.home-second__inner {
+    margin: 100px 0;
+    padding: 0 30px;
+    border: 3px solid #000;
+    border-radius: 25px;
+    box-shadow: 7px 7px;
+    overflow: hidden;
+    background-color: var(--bg);
+    position: relative;
+}
 
 /* End Theme Default CSS */
 
@@ -280,25 +297,37 @@ img {
 
 /** 3. Start Header **/
 .header {
+    //margin: 0 100px;
+    padding: 0 40px;
     z-index: 5;
-    overflow: hidden;
-    background-color: var(--bg);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    border-bottom: 1px solid var(--border-top);
+    //background-color: var(--bg);
     transition: top 0.5s ease;
+    position: absolute;
+    left: 0;
+    right: 0;
     .head__fix & {
-        top: -70px;
+        margin: 0 100px;
+        padding: 0 13px;
+        position: fixed;
+        top: -100px;
+        left: 0;
+        right: 0;
     }
     .head__show & {
         top: 0;
+        left: 0;
+        right: 0;
     }
     .header_inner {
-        height: 70px;
+        height: 100px;
+        .head__show & {
+            margin: 0 25px;
+            background-color: var(--bg);
+            height: 70px;
+        }
         .header__logo {
             img {
-                height: 36px;
+                height: 40px;
             }
         }
         .header__nav {
@@ -339,9 +368,12 @@ img {
             color: #999;
         }
     }
+    a.header__button-close {
+        display: none;
+    }
 }
 .header--fixed {
-    height: 70px;
+    height: 100px;
     width: 100%;
     z-index: -1;
     background-color: var(--bg);
@@ -358,7 +390,7 @@ img {
 }
 /** 4. Start About me **/
 .about-me {
-    height: calc(100vh - 70px);
+    padding: 50px 0;
     background-color: var(--bg);
     .about-me__avatar {
         position: relative;
@@ -1821,6 +1853,7 @@ img {
         display: block;
     }
     a {
+        color: $color-black;
         font-weight: 500;
         text-decoration: underline;
     }
